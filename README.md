@@ -181,7 +181,7 @@ The `FlowInfoMessage` is being used to update the flow IDs and owner in the flow
 | IncomingDcfInterfaceID        | int                        | The ID of the incoming DCF interface.                                                          |
 | IncomingDcfDynamicLink        | string                     | "ParameterGroupID;PrimaryKey" of the incoming DCF interface.                                   |
 | OutgoingDcfInterfaceID        | int                        | The ID of the outgoing DCF interface.                                                          |
-| IncomingDcfDynamicLink        | string                     | "ParameterGroupID;PrimaryKey" of the outgoing DCF interface.                                   |
+| OutgoingDcfDynamicLink        | string                     | "ParameterGroupID;PrimaryKey" of the outgoing DCF interface.                                   |
 | OptionalSourceIdentifier      | string                     | An optional identifier of the source that can be used in addition to the DOM instance ID.      |
 | OptionalDestinationIdentifier | string                     | An optional identifier of the destination that can be used in addition to the DOM instance ID. |
 | IsIncoming                    | bool                       | Indicates whether the stream should enter the current element.                                 |
